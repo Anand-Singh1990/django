@@ -193,7 +193,7 @@ class CacheMiddleware(UpdateCacheMiddleware, FetchFromCacheMiddleware):
     Cache middleware that provides basic behavior for many simple sites.
 
     Also used as the hook point for the cache decorator, which is generated
-    using the decorator-from-middleware utility.
+    using the decorator-from-middleware utility..
     """
 
     def __init__(self, get_response, cache_timeout=None, page_timeout=None, **kwargs):
